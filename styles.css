@@ -25,7 +25,37 @@ figure img {
 }
 
 
-.container {
-    display: flex;
+
+
+#container {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 20px;  
+  }
   
-}
+  main {
+    flex: 2; 
+    background-color: white;
+    padding: 20px;
+  }
+  
+  aside {
+    flex: 1; 
+    background-color:  greenyellow;
+    padding: 20px;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  img {
+    width: 100%; 
+    height: auto;
+  }
+  
+  figcaption {
+    margin-top: 10px;
+  }
+  
+ 
