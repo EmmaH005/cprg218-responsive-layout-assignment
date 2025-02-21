@@ -21,7 +21,8 @@ footer {
     background-color: #d9043d;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
+    
 }
 
 figure img {
@@ -30,8 +31,7 @@ figure img {
 }
 
 aside {
-    background-color: #97bf04
-    ;
+    background-color: #97bf04;
 }
 
 aside h3 {
@@ -50,12 +50,12 @@ aside h3 {
 }
 
 .header-container img {
-    width: 80px;
+    padding-right: 10px;
+    width: 150px;
 }
 
 .header-container h1 {
-    font-size: 28px;
-    margin: 0;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -67,23 +67,25 @@ aside h3 {
 }
 
 main {
-    flex: 2;
-   
+    flex: 4;
 }
 
 figure {
     display: flex;
     gap: 20px;
+ 
 }
 
 figure img {
-    max-width: 300px;
-    max-height: 300px;
+    margin-top: 20px;
+    max-width: 500px;
+    max-height: 500px;
+    
 }
 
 
 figcaption h2 {
-    font-size: 24px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -91,6 +93,7 @@ figcaption h2 {
 aside {
     flex: 1;
     padding: 20px;
+  
    
 }
 
@@ -107,7 +110,9 @@ aside {
     }
     
     figure img {
-      width: 80%;
+     margin-top: 20px;
+      width: 300px;
+      height: 300px;
     }
   }
   
@@ -119,7 +124,7 @@ aside {
     }
     
     #container {
-        flex-direction: column;
+     flex-direction: column;
        
     }
 
