@@ -24,7 +24,13 @@ figure img {
     border: 5px solid #d9043d
 }
 
-
+.header-container {
+    
+        display: flex; 
+        justify-content: flex-start; 
+        align-items: center;
+        padding: 10px 20px; 
+}
 
 
 #container {
