@@ -1,0 +1,31 @@
+
+body{
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #120323;
+    color: white;
+    padding: 20px
+}
+
+h2 {
+
+    color: #120323;
+}
+
+footer {
+    background-color: #d9043d;
+    color: white;
+    padding: 20px
+}
+
+figure img {
+    border: 5px solid #d9043d
+}
+
+
+.container {
+    display: flex;
+  
+}
