@@ -7,7 +7,7 @@ body{
 
 header {
     background-color: #120323;
-    color: white;
+    color: #A1C100;
     padding: 20px
 }
 
@@ -39,16 +39,15 @@ aside h3 {
  
 .header-container {
     background-color: #1A0D2E;
-    color: #A1C100;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    
 }
 
 .header-container img {
-    height: 80px;
+    width: 80px;
 }
 
 .header-container h1 {
@@ -65,18 +64,17 @@ aside h3 {
 
 main {
     flex: 2;
-    background: white;
-    padding: 20px;
+   
 }
 
 figure {
     display: flex;
-    align-items: flex-start;
     gap: 20px;
 }
 
 figure img {
     max-width: 300px;
+    max-height: 300px;
 }
 
 
@@ -92,7 +90,34 @@ aside {
    
 }
 
+@media screen and (max-width: 1000px) {
+    #container {
+      flex-direction: column;
+    }
+    
+    figure {
+      flex-direction: row;
+      
+    }
+    
+    figure img {
+      width: 80%;
+    }
+  }
+  
+  /* Under 768px */
+  @media screen and (max-width: 768px) {
+    .header-container {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    figure {
+    flex-direction: column;
+}
 
-
-
-
+    figure img {
+      width: 100%;
+    }
+    
+}
